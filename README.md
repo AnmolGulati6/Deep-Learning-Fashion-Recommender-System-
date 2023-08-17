@@ -17,18 +17,13 @@ System employs the ResNet50 deep learning model pre-trained on ImageNet to extra
 
 ## Installation
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/fashionvue.git
-   cd fashionvue
-   ```
+1. Clone the repository
 
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+2. Download the [Fashion Product Images Dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset) and place the `images` folder in the project directory.
 
-3. Launch the Streamlit app:
+3. Run the `main.py` script to generate the necessary feature embeddings and filenames pickle files:
+
+4. Launch the Streamlit app:
    ```
    streamlit run frontend.py
    ```
